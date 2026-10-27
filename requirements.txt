@@ -1,0 +1,15 @@
+# 运行时依赖（Python 3.13；wxauto4 只发到 cp313 的轮子，所以别用更新的 Python）
+aiohttp>=3.14,<4
+certifi>=2024.7  # 随程序带 Mozilla 根证书（mb/tls.py）：新装的 Windows 还没下载根证书时也能连上 HTTPS 站点
+discord.py>=2.7,<3
+pywebview>=6.2,<7
+pystray>=0.19.5
+Pillow>=13
+numpy>=2.5,<3
+onnxruntime>=1.31,<2
+tokenizers>=0.23,<1
+sqlite-vec==0.1.8
+segno>=1.6
+pypdf>=6.21
+pywin32>=312
+psutil>=7,<8  # 认出并停干净 NapCat 启动的 QQ 进程（mb/channels/napcat.py）

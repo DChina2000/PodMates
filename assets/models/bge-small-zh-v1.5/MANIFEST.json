@@ -1,0 +1,22 @@
+{
+ "key": "bge-small-zh-v1.5",
+ "license": "MIT (BAAI)",
+ "repo": "Xenova/bge-small-zh-v1.5",
+ "files": [
+  {
+   "path": "onnx/model_int8.onnx",
+   "dest": "model.onnx",
+   "sha256": "b9837c19ce154ff0726d398ee77abbc03a7faf0476c6f93016c84e531be7ebb5"
+  },
+  {
+   "path": "tokenizer.json",
+   "dest": "tokenizer.json",
+   "sha256": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26"
+  }
+ ],
+ "sources": [
+  "https://www.modelscope.cn/models/{repo}/resolve/master/{path}",
+  "https://huggingface.co/{repo}/resolve/main/{path}",
+  "https://hf-mirror.com/{repo}/resolve/main/{path}"
+ ]
+}

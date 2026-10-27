@@ -1,0 +1,26 @@
+# 环境与构建产物
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+wxauto_logs/
+
+# 用户数据和密钥永远不进仓库
+*.db
+*.db-wal
+*.db-shm
+runtime.json
+/data/
+/PodMates/
+
+# 向量模型文件构建时下载（tools/fetch_model.py），不进仓库
+assets/models/*/*.onnx
+assets/models/*/tokenizer.json
+assets/models/*/README.md
+
+# 给协调者的施工报告和含个人信息的对照表，不公开
+REPORT.md
+docs/拼装对照.md
